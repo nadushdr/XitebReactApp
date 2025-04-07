@@ -1,0 +1,166 @@
+.home {
+  .featured {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .left {
+      width: 30%;
+      z-index: 10;
+
+      .text-area {
+        padding: 20px;
+        margin-right: -100px;
+        background-color: white;
+
+        h6 {
+          letter-spacing: 3px;
+        }
+
+        .best-shipping {
+          font-weight: 400;
+        }
+
+        .partner {
+          color: #f9bf04;
+        }
+
+        .desc {
+          font-size: 90%;
+        }
+
+        .btn-discover {
+          border: none;
+          background-color: #f9bf04;
+          color: white;
+          padding: 10px 30px;
+        }
+      }
+    }
+
+    .right {
+      width: 70%;
+
+      .featured-img {
+        width: 100%;
+        z-index: 1;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .featured {
+      flex-direction: column;
+
+      .left {
+        width: 95%;
+
+        .text-area {
+          margin-right: 0px;
+          padding: 5px;
+        }
+      }
+
+      .right {
+        width: 95%;
+      }
+    }
+  }
+
+  .welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    padding: 30px;
+
+    .left {
+      width: 50%;
+
+      .welcome-img {
+        width: 100%;
+      }
+    }
+
+    .right {
+      width: 50%;
+      padding: 20px;
+
+      .title-bottom {
+        .world {
+          color: #ff7c45;
+        }
+      }
+
+      .about-link {
+        text-decoration: none;
+        color: #4f7fff;
+        cursor: pointer;
+        font-weight: 500;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .welcome {
+      flex-direction: column;
+      height: 90vh;
+
+      .left {
+        width: 100%;
+
+        .welcome-img {
+          width: 100%;
+        }
+      }
+
+      .right {
+        width: 100%;
+        padding: 10px;
+      }
+    }
+  }
+
+  .stats {
+    .stats-img {
+      width: 100%;
+    }
+  }
+
+  .testimonials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+    .t-left-img {
+      width: 50%;
+    }
+
+    .t-right-img {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .testimonials {
+      flex-direction: column;
+      height: 100vh;
+
+      .t-left-img {
+        width: 100%;
+      }
+
+      .t-right-img {
+        width: 100%;
+      }
+    }
+  }
+
+  .client {
+    .client-img {
+      width: 100%;
+    }
+  }
+}
