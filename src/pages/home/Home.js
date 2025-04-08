@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import AddBoxIcon from "@mui/icons-material/AddBox";
+import QuestionAnswerIcon from "@mui/icons-material/QuestionAnswer";
 
 import "./Home.css";
 
@@ -137,6 +138,74 @@ const Home = () => {
 
         <div className="client">
           <img src="/imgs/client.png" className="client-img" alt="client" />
+        </div>
+
+        <div className="news">
+          <h1>LATEST NEWS</h1>
+          <h5>INTEGER CONGUE ELIT</h5>
+
+          <div className="card-container">
+            <div className="card">
+              <img src="/imgs/news1.jpg" />
+              <div className="text-area">
+                <h2>Air Freight Services</h2>
+                <div className="insight">
+                  <p>Admin</p>
+                  <QuestionAnswerIcon />
+                  <p>15</p>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  ac rutrum dui.
+                </p>
+              </div>
+            </div>
+            <div className="card">
+              <img src="/imgs/news2.jpg" />
+              <div className="text-area">
+                <h2>Air Freight Services</h2>
+                <div className="insight">
+                  <p>Admin</p>
+                  <QuestionAnswerIcon />
+                  <p>15</p>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  ac rutrum dui.
+                </p>
+              </div>
+            </div>
+            <div className="card">
+              <img src="/imgs/news3.jpg" />
+              <div className="text-area">
+                <h2>Air Freight Services</h2>
+                <div className="insight">
+                  <p>Admin</p>
+                  <QuestionAnswerIcon />
+                  <p>15</p>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  ac rutrum dui.
+                </p>
+              </div>
+            </div>
+            <div className="card">
+              <img src="/imgs/news4.jpg" />
+              <div className="text-area">
+                <h2>Air Freight Services</h2>
+                <div className="insight">
+                  <p>Admin</p>
+                  <QuestionAnswerIcon />
+                  <p>15</p>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  ac rutrum dui.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
