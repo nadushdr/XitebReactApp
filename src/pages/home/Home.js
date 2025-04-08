@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
+import AddBoxIcon from "@mui/icons-material/AddBox";
 
 import "./Home.css";
 
@@ -95,16 +96,43 @@ const Home = () => {
         </div>
 
         <div className="testimonials">
-          <img
-            src="/imgs/t-left.png"
-            className="t-left-img"
-            alt="testimonials"
-          />
-          <img
-            src="/imgs/t-right.png"
-            className="t-right-img"
-            alt="testimonials"
-          />
+          <div className="left">
+            <h1>TRUSTED CLIENTS</h1>
+            <h3>LOREM IPSUM DOLOR SIT AMET CONSECTETUR</h3>
+            <div className="box">
+              <p className="review">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
+                rutrum dui. Cras condimentum nec tortor sed imperdiet. Vivamus
+                vel mauris turpis. Morbi sollicitudin elit vitae lectus interdum
+                efficitur.
+              </p>
+            </div>
+            <h5 className="name">JOHN DOE</h5>
+            <p className="position">Managing Director</p>
+          </div>
+          <div className="right">
+            <h1>WHY CHOOSE US</h1>
+            <h3>LOREM IPSUM DOLOR SIT AMET CONSECTETUR</h3>
+
+            <div className="box">
+              <div className="fact">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <AddBoxIcon />
+              </div>
+              <div className="fact">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <AddBoxIcon />
+              </div>
+              <div className="fact">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <AddBoxIcon />
+              </div>
+              <div className="fact">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <AddBoxIcon />
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="client">
