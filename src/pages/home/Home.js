@@ -148,7 +148,7 @@ const Home = () => {
             <div className="card">
               <img src="/imgs/news1.jpg" />
               <div className="text-area">
-                <h2>Air Freight Services</h2>
+                <h3>Air Freight Services</h3>
                 <div className="insight">
                   <p>Admin</p>
                   <QuestionAnswerIcon />
@@ -163,7 +163,7 @@ const Home = () => {
             <div className="card">
               <img src="/imgs/news2.jpg" />
               <div className="text-area">
-                <h2>Air Freight Services</h2>
+                <h3>Air Freight Services</h3>
                 <div className="insight">
                   <p>Admin</p>
                   <QuestionAnswerIcon />
@@ -178,7 +178,7 @@ const Home = () => {
             <div className="card">
               <img src="/imgs/news3.jpg" />
               <div className="text-area">
-                <h2>Air Freight Services</h2>
+                <h3>Air Freight Services</h3>
                 <div className="insight">
                   <p>Admin</p>
                   <QuestionAnswerIcon />
@@ -193,7 +193,7 @@ const Home = () => {
             <div className="card">
               <img src="/imgs/news4.jpg" />
               <div className="text-area">
-                <h2>Air Freight Services</h2>
+                <h3>Air Freight Services</h3>
                 <div className="insight">
                   <p>Admin</p>
                   <QuestionAnswerIcon />
